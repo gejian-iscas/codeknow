@@ -1,17 +1,17 @@
 default: &default
   adapter: postgresql
   pool: 5
-  username: postgres
-  password: postgres
+  # username: postgres
+  # password: postgres
 
 development:
   <<: *default
-  database: knowscode_development
+  # database: knowscode_development
 
 test:
   <<: *default
-  database: knowscode_test
+  # database: knowscode_test
 
 production:
   <<: *default
-  database: knowscode_production
+  # database: knowscode_production
