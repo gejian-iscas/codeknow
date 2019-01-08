@@ -1,12 +1,12 @@
 default: &default
   adapter: postgresql
   pool: 5
-  username: postgres
-  password: postgres
+  username: ubuntu
+  password: 123456
 
 development:
   <<: *default
-  database: knowscode_development
+  database: coderwall_development
 
 test:
   <<: *default
